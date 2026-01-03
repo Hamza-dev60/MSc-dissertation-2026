@@ -1,4 +1,4 @@
-# Thesis Repository: Operational Efficiency Analysis at Nishat Mills Limited
+# Operational Efficiency Analysis at Nishat Mills Limited
 
 This repository contains primary data and analysis code used in my thesis report on operational efficiency practices at Nishat Mills Limited (NML). The data was collected through qualitative interviews and quantitative surveys from NML employees. The focus is on identifying efficiency practices, challenges, and recommendations for cost reduction in textile manufacturing operations.
 
@@ -49,21 +49,25 @@ Note: The notebook includes code to upload files in Google Colab; adjust as need
 
 Below is a Mermaid diagram illustrating the high-level workflow of data collection and analysis used in the thesis.
 
-mermaid
+```mermaid
 flowchart TD
     A[Start: Thesis Research Objective] --> B[Data Collection Phase]
     B --> C1[Qualitative Interviews]
     B --> C2[Quantitative Surveys]
-    C1 --> D[Transcribe & Analyze Themes<br>(e.g., Challenges in Efficiency)]
-    C2 --> E[Compile Survey Data<br>(Nishat survey dataset.xlsx)]
+    C1 --> D[Transcribe & Analyze Themes\ne.g., Challenges in Efficiency]
+    C2 --> E[Compile Survey Data\nNishat survey dataset.xlsx]
     D --> F[Integrate Insights]
     E --> F
-    F --> G[Data Analysis in Jupyter Notebook<br>(EDA, Visualization, Modeling)]
-    G --> H[Derive Findings & Recommendations<br>(e.g., Cost Reduction Strategies)]
+    F --> G[Data Analysis in Jupyter Notebook\nEDA, Visualization, Modeling]
+    G --> H[Derive Findings & Recommendations\ne.g., Cost Reduction Strategies]
     H --> I[End: Thesis Report]
 
+    style A fill:#f9f,stroke:#333
+    style I fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style G fill:#ff9,stroke:#333
 
-This diagram can be rendered directly in GitHub's Markdown preview.
+
 
 ## License
 
