@@ -45,29 +45,6 @@ To run the Jupyter Notebook:
 
 Note: The notebook includes code to upload files in Google Colab; adjust as needed for local environments.
 
-## Methodology Flowchart
-
-Below is a Mermaid diagram illustrating the high-level workflow of data collection and analysis used in the thesis.
-
-```mermaid
-flowchart TD
-    A[Start: Thesis Research Objective] --> B[Data Collection Phase]
-    B --> C1[Qualitative Interviews]
-    B --> C2[Quantitative Surveys]
-    C1 --> D[Transcribe & Analyze Themes\ne.g., Challenges in Efficiency]
-    C2 --> E[Compile Survey Data\nNishat survey dataset.xlsx]
-    D --> F[Integrate Insights]
-    E --> F
-    F --> G[Data Analysis in Jupyter Notebook\nEDA, Visualization, Modeling]
-    G --> H[Derive Findings & Recommendations\ne.g., Cost Reduction Strategies]
-    H --> I[End: Thesis Report]
-
-    style A fill:#f9f,stroke:#333
-    style I fill:#f9f,stroke:#333
-    style B fill:#bbf,stroke:#333
-    style G fill:#ff9,stroke:#333
-
-
 
 ## License
 
