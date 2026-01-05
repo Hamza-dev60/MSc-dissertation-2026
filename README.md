@@ -6,9 +6,9 @@ The repository includes raw survey data in Excel format and a Jupyter Notebook w
 
 ## Repository Contents
 
-- *Nishat survey dataset.xlsx*: Raw survey responses from NML employees. This file includes timestamped entries with questions on demographics, awareness of efficiency practices, challenges, and suggestions for improvement. Data is anonymized and covers departments like Spinning, Weaving, Dyeing/Processing, and Finishing.
+- *Nishat Dataset.xlsx*: Raw survey responses from NML employees. This file includes timestamped entries with questions on demographics, awareness of efficiency practices, challenges, and suggestions for improvement. Data is anonymized and covers departments like Spinning, Weaving, Dyeing/Processing, and Finishing.
   
-- *Nishat Operational efficiencies Analysis.ipynb*: Jupyter Notebook containing Python code for:
+- *Nishat Coding.ipynb*: Jupyter Notebook containing Python code for:
   - Data loading and preprocessing.
   - Exploratory data analysis (EDA) with visualizations (e.g., histograms, heatmaps).
   - Statistical modeling (e.g., regression analysis using Statsmodels).
@@ -39,7 +39,7 @@ To run the Jupyter Notebook:
    
    git clone https://github.com/Hamza-dev60/MSc-dissertation-2026.git
    
-2. Open the Jupyter Notebook (Nishat Operational efficiencies Analysis.ipynb) in Jupyter or upload to Google Colab.
+2. Open the Jupyter Notebook (Nishat Coding.ipynb) in Jupyter or upload to Google Colab.
 3. Ensure the Excel file is in the same directory or update the file path in the code.
 4. Run the cells sequentially for data loading, analysis, and visualizations.
 
